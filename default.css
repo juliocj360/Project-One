@@ -1,0 +1,10 @@
+body {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
