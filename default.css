@@ -7,8 +7,24 @@ li {
   width: 30%;
   margin: 10px;
 }
+
 .copyright {
   position: absolute;
   bottom: 0px;
   left: 50%;
+}
+
+.crowdimg {
+  background-image: url("https://rockstonesessions.com/wp-content/uploads/2015/11/Banner_01.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.imgdesc {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
