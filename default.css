@@ -12,3 +12,16 @@ li {
   bottom: 0px;
   left: 50%;
 }
+.crowdimg {
+  background-image: url("crowdimage.png");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.imgdesc {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
