@@ -1,5 +1,5 @@
 body {
-  padding: 20px;
+  font-family: helvetica;
 }
 
 li {
@@ -8,8 +8,13 @@ li {
   margin: 10px;
 }
 
+div.header {
+  font-weight: bold;
+  color: rgb(0,161,242);
+}
+
 .copyright {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 50%;
 }
@@ -27,4 +32,26 @@ li {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.small {
+  height: 32px;
+  position: fixed;
+  bottom: 0px;
+}
+
+h1 {
+  background-color: rgb(5,161,242);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  padding-left: 20px;
+
+}
+.big {
+  right: 0px;
+  top: 0px;
+  background-color: rgb(29,161,242);
+  height: 100px;
 }
